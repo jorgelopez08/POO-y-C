@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int primos_por_mostrar, n, d;
+    int primos_por_mostrar, n, d, inicial;
     int es_primo;
 
     printf("Cuantos primos desea mostrar: ");
     scanf("%d", &primos_por_mostrar);
+    printf("Desde que numero quieres iniciar?: ");
+    scanf("%d", &inicial);
 
     n = 2;
     while (primos_por_mostrar > 0) {
