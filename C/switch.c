@@ -11,21 +11,21 @@ int main(int argc, char const *argv[])
         scanf("%d",&opc);
         switch (opc)
         {
-        case 1:
+        case 1 ... 100:
             printf("Ingrese a y b: \n");
             scanf("%f",&a);
             scanf("%f",&b);
             resultado = a + b;
             printf("el resultado es %f\n", resultado);
             break;
-        case 2:
+        case 101:
             printf("Ingrese a y b: \n");
             scanf("%f",&a);
             scanf("%f",&b);
             resultado = a - b;
             printf("el resultado es %f\n", resultado);
             break;
-            case 4:
+            case 104:
                 repetir = 0;
                 break;
         default:
