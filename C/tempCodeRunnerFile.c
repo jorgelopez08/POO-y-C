@@ -1,1 +1,1 @@
-scanf(" ");
+srand(time(NULL));
