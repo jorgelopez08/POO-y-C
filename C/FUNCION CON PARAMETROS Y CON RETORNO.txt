@@ -1,0 +1,11 @@
+FUNCION CON PARAMETROS Y CON RETORNO
+una funcion que va a devolver un valor de una operacion que se haga dentro de la misma funcion
+el tipo de dato retornado se pone antes del nombre de la variable, puede ser float, int, char, void
+"void imprimir();"
+
+y el parametro en un dato que se pasa entre los parentesis para ser utilizado dentro de las funciones
+"void imprimir(int ingresos);"
+con ese parametro puedes hacer operaciones dentro de la funcion y tambien se puede modificar, se podria 
+ver como una variable mas
+
+imprimir(10);
